@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Env
+.env
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# DVC
+/data/raw/*
+!/data/raw/.gitkeep
+!/data/raw/*.dvc
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/processed/*.dvc
+/models/*
+!/models/.gitkeep
+!/models/*.dvc
+/reports/*
+!/reports/.gitkeep
+!/reports/*.dvc
+
+# Prefect
+.prefect/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
